@@ -1,8 +1,8 @@
 > /***************************************************************************
-* Project: web                                 Code: websrc               *
-* ReEditor: Xiaofei Cui                                                   *
-* Copyright (c) 2017-2019,    All rights reserved just in respect.        *
-***************************************************************************/
+> * Project: web                                 Code: websrc               *
+> * ReEditor: Xiaofei Cui                                                   *
+> * Copyright (c) 2017-2019,    All rights reserved just in respect.        *
+> ***************************************************************************/
 
 # 版权声明
 
