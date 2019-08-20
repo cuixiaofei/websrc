@@ -20,6 +20,7 @@
 　　小站中我个人仅仅是使用了一个公式插件，其他还有“位置”“留言”等等插件功能，可以看一下 _includes/readme _这里有详细描述
 _includes/head.html _include the css files in assets/css/
 all the includes are in assets/
+    需要学习的插件是paginator,有时间再看.
 
 5. 如何将域名和gitpage相关联
 最后一次成功了，首先阿里云IPv4解析域名至github的ip地址
@@ -28,7 +29,7 @@ all the includes are in assets/
 这个方法最后成功了
 
 6. 如何让百度抓取
-　　这个没有成功， baidu_verify_CPToBxeC1k.html 还不够
+　　找到了最简单便捷的方法,baidu_verify_CPToBxeC1k.html放入include文件夹,其中googleanalytics和baidu_verify_CPToBxeC1k用来做两个抓取,可以作为script放入网页中而在页面里隐藏.另外百度抓取就用coding.net最便捷,但是需要换分支,还有添加gitpush源,但是还可以接受.
 
 ## 详细说明与想说的话
 
@@ -39,7 +40,7 @@ all the includes are in assets/
 
 ## 前瞻
 
-没有写完，太花时间了，过两天再补全一点。
+没有写完，太花时间了。
 
 
 
