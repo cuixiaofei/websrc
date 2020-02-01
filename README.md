@@ -29,7 +29,14 @@ all the includes are in assets/
 这个方法最后成功了
 
 6. 如何让百度抓取
-　　找到了最简单便捷的方法,baidu_verify_CPToBxeC1k.html放入include文件夹,其中googleanalytics和baidu_verify_CPToBxeC1k用来做两个抓取,可以作为script放入网页中而在页面里隐藏.另外百度抓取就用coding.net最便捷,但是需要换分支,还有添加gitpush源,但是还可以接受.
+　　并未实现。
+    找到了最简单便捷的方法,baidu_verify_CPToBxeC1k.html放入include文件夹,其中googleanalytics和baidu_verify_CPToBxeC1k用来做两个抓取,可以作为script放入网页中而在页面里隐藏.
+    另外百度抓取就用coding.net最便捷,但是需要换分支,还有添加gitpush源,但是还可以接受.
+
+7. 如何添加RSS订阅
+    RSS非常重要，一定要重视起来，首先使用的是官网提供的jekyll-feed插件，
+    很简单就是在_config.yml文件中写好gems: [jekyll-feed]声明使用该插件，
+    然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
 
 ## 详细说明与想说的话
 
@@ -40,6 +47,7 @@ all the includes are in assets/
 
 ## 前瞻
 
+原小站所有的新功能尝试均在该项目中完成测试。
 没有写完，太花时间了。
 
 
