@@ -1,34 +1,34 @@
 # Author settings
-name: 崔小非
-title: Master's degree
-address: 中国, 天津/北京
-email: cui_xiaofei@163.com
-github: cuixiaofei
+name: 姓名
+title: title
+address: address, 天津/北京
+email: email
+github: githubname
 gavatar: /web/assets/img/avatar.JPG
 workHistory:
 - work1:
-  company: IHEP
+  company: company
   location: China, Beijing
   title: Master's degree
   started: 2017
   duration: (2017.9 - now)
-  description: BESIII Cooperation
+  description: 
 
 educationHistory:
 - education2:
-  organization: 南开大学
-  degree: 硕士
-  major: 粒子物理与核物理
+  organization: University
+  degree: degree
+  major: major专业
   started: 2016
   duration: (2016.9 - now)
-  description: 学习了部分量子场论和广相
+  description: 描述
 - education1:
-  organization: 天津理工大学
-  degree: 学士
-  major: 应用物理学
+  organization: University
+  degree: degree
+  major: major专业
   started: 2011
   duration: (2011.9 - 2014.7)
-  description: 学习了四大力学
+  description: 描述
 languages:
 - language1:
   name: 中文
@@ -39,19 +39,10 @@ languages:
 programmingSkills:
 - CPP:
   name: C/C++
-  percentage: 15%
+  percentage: ??%
 - Bash:
   name: Bash Shell
-  percentage: 10%
+  percentage: 66%
 - CPP:
   name: Python
-  percentage: 5%
-- Fortran:
-  name: Fortran
-  percentage: 1%
-- Mathematica:
-  name: Mathematica
-  percentage: 3%
-- LabVIEW:
-  name: LabVIEW
-  percentage: 16%
+  percentage: ??%

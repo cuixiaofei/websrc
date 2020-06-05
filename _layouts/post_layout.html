@@ -16,6 +16,11 @@
                 </p>
             </header>
             {{ content }}
+
+            {% if site.intenseDebate %}
+              {% include intenseDebate_include.html %}
+            {% endif % }
+
             {% include post_footer.html %}
         </main>
 

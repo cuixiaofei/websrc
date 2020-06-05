@@ -1,6 +1,6 @@
 >  Project: web                                Code: websrc                
    ReEditor: Xiaofei Cui                                                    
-   Copyright (c) 2017-2019,    All rights reserved just in respect.         
+   Copyright (c) 2017-2020,    All rights reserved just in respect.         
 
 ## 版权声明
 
@@ -17,8 +17,7 @@
 　　图片放在 assets/img/ 目录，这里就是图片位置，插入图片时，把图片放在该目录下，并在文章中引用该图片即可，引用的方式为**![Blog](图片路径)**。
 
 4. 如何使用基本的网页插件
-　　小站中我个人仅仅是使用了一个公式插件，其他还有“位置”“留言”等等插件功能，可以看一下 _includes/readme _这里有详细描述
-_includes/head.html _include the css files in assets/css/
+　　小站中我个人仅仅是使用了一个公式插件，还有很多其他插件功能，可以看一下 _includes/readme _这里有详细描述 _includes/head.html _include the css files in assets/css/
 all the includes are in assets/
     需要学习的插件是paginator,有时间再看.
 
@@ -36,7 +35,11 @@ all the includes are in assets/
 7. 如何添加RSS订阅
     RSS非常重要，一定要重视起来，首先使用的是官网提供的jekyll-feed插件，
     很简单就是在_config.yml文件中写好gems: [jekyll-feed]声明使用该插件，
+    gems现已更换为plugins
     然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
+
+8. 如何添加评论功能
+    已经安装相应的插件insenseDebate插件，实现了评论功能
 
 ## 详细说明与想说的话
 
