@@ -35,7 +35,7 @@ all the includes are in assets/
 7. 如何添加RSS订阅
     RSS非常重要，一定要重视起来，首先使用的是官网提供的jekyll-feed插件，
     很简单就是在_config.yml文件中写好gems: [jekyll-feed]声明使用该插件，
-    gems现已更换为plugins
+    gems现已更换为plugins，似乎RSS配置完成了
     然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
 
 8. 如何添加评论功能
