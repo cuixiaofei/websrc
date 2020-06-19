@@ -2,7 +2,8 @@ icard_resume.css:
 似乎是用于about的
 
 blog.css: 
-用于整个文章页面显示
+用于整个主页的页面显示
+其中的png文件为主页插入的文章落尾图片
 
 bootstrap-theme.css:
 这个文件里定义了基本用的控件

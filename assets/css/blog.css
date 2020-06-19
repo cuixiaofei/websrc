@@ -147,7 +147,8 @@ article.preview {
     bottom:0;
     right:0;
     padding:0 30px 2px 40px;
-    background:url(http://newimg88.b0.upaiyun.com/newimg88/2014/09/ellipsis_bg.png) repeat-y;
+    /*background:url(http://newimg88.b0.upaiyun.com/newimg88/2014/09/ellipsis_bg.png) repeat-y;*/
+    background:url(ellipsis_bg.png) repeat-y;
     /*background:url(http://) repeat-x;
     background-image:url();
     background-repeat:repeat-y;*/
