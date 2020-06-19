@@ -1,9 +1,9 @@
 # Site settings
-title: 小非的物理小站
-description: Xiaofei
+title: 小站名称
+description: 作者名称
 favicon: /assets/img/avatar.JPG
-url: https://cuixiaofei.github.io
-baseurl: 
+url: https://????.github.io
+baseurl:  # baseurl Not filled in by default
 
 # Build settings
 
@@ -33,5 +33,6 @@ mathjax: true
 intenseDebate: true
 
 plugins: [jekyll-feed]
-#gems: [jeyll-mermaid]
+plugins: [jekyll-mermaid]
+#gems: [jeyll-mermaid] gems command abandon
 

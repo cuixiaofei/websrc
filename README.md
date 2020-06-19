@@ -30,15 +30,19 @@ all the includes are in assets/
 6. 如何让百度抓取
 　　并未实现。
     找到了最简单便捷的方法,baidu_verify_CPToBxeC1k.html放入include文件夹,其中googleanalytics和baidu_verify_CPToBxeC1k用来做两个抓取,可以作为script放入网页中而在页面里隐藏.
-    另外百度抓取就用coding.net最便捷,但是需要换分支,还有添加gitpush源,但是还可以接受.
+    另外百度抓取就用coding.net最便捷,但是需要换分支,还有添加gitpush源,也可以接受吧就是麻烦了一些，还未实现.
 
 7. 如何添加RSS订阅
     RSS非常重要，一定要重视起来，首先使用的是官网提供的jekyll-feed插件，
     很简单就是在_config.yml文件中写好gems: [jekyll-feed]声明使用该插件，
-    gems现已更换为plugins，似乎RSS配置完成了
+    gems现已更换为plugins，声明改为plugins: [jekyll-feed]RSS配置就完成
     然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
 
-8. 如何添加评论功能
+8. 如何添加流程图插件
+    plugins: [jekyll-mermaid]
+    如果报错，需要首先安装相应的包: sudo gem install jekyll-mermaid
+
+9. 如何添加评论功能
     已经安装相应的插件insenseDebate插件，实现了评论功能
 
 ## 详细说明与想说的话
