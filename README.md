@@ -14,19 +14,24 @@
 
 2. 如何发布自己的文章
 　　图具体可以看 _drafts/readme _文件里有详细的说明。
+
 3. 图片如何使用
 　　图片放在 assets/img/ 目录，这里就是图片位置，插入图片时，把图片放在该目录下，并在文章中引用该图片即可，引用的方式为**![Blog](图片路径)**。
 
-4. 如何使用基本的网页插件
-　　小站中我个人仅仅是使用了一个公式插件，还有很多其他插件功能，可以看一下 _includes/readme _这里有详细描述 _includes/head.html _include the css files in assets/css/
-all the includes are in assets/
-    需要学习的插件是paginator,有时间再看.
+4. 如何使用网页排版相关插件
+　　小站中使用了一个公式插件，还有很多其他插件功能，可以看一下 _includes/readme _这里有详细描述 
+    _includes/head.html 
+    _include the css files in assets/css/
+
+    另外最近添加的插件是流程图插件
+    plugins: [jekyll-mermaid]
+    如果报错，需要首先安装相应的包: sudo gem install jekyll-mermaid
 
 5. 如何将域名和gitpage相关联
-最后一次成功了，首先阿里云IPv4解析域名至github的ip地址
-然后websrc的_conyml? _中的baseurl放空
-最后更改websrc的CNAME到xiaophy.com
-这个方法最后成功了
+    最后一次成功了，首先阿里云IPv4解析域名至github的ip地址
+    然后websrc的_conyml? _中的baseurl放空
+    最后更改websrc的CNAME到xiaophy.com
+    这个方法最后成功了
 
 6. 如何让百度抓取
 　　并未实现。
@@ -39,12 +44,9 @@ all the includes are in assets/
     gems现已更换为plugins，声明改为plugins: [jekyll-feed]RSS配置就完成
     然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
 
-8. 如何添加流程图插件
-    plugins: [jekyll-mermaid]
-    如果报错，需要首先安装相应的包: sudo gem install jekyll-mermaid
-
-9. 如何添加评论功能
+8. 如何添加评论功能
     已经安装相应的插件insenseDebate插件，实现了评论功能
+    需要学习的插件是paginator,有时间再看.
 
 ## 详细说明与想说的话
 

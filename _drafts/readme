@@ -1,2 +1,26 @@
-
 文章发布说明
+
+首先可以写作草稿，在该文件夹中_drafts
+随后可以将草稿移动至_post文件夹中
+这时build网页即可发布文章
+
+文章要注意的开头格式
+---
+layout: post_layout
+title: 开放研究个人守则
+time: 2018年04月09日 星期日
+location: 北京
+pulished: true
+publight: true
+excerpt_separator: "```"
+---
+
+上述中
+layout是文章格式配置
+title是文章名
+time是时间
+location是发布地点
+publight是日期高亮
+
+以上都要按照格式填写
+其他各项有待理解

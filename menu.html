@@ -4,7 +4,11 @@ layout: blog_layout
 
 {% for post in site.posts %}
     <section class="smenu">
+      {% if post.publight %}
+        <b> {{ post.time  | date: "%Y/%m/%d" }} </b>
+      {% else %}
         {{ post.time  | date: "%Y/%m/%d" }}
+      {% endif %}
         &nbsp;&nbsp;
         <a href="{{ post.url | prepend: site.baseurl }}">
             <span class="glyphicon glyphicon-hand-right">  </span>
