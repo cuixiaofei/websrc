@@ -4,6 +4,10 @@
     <body>
         {% include blog_header.html %}
 
+        {% if site.mathjax %}
+        {% include Mathjax_include.html %}
+        {% endif %}
+
         <main class="blogmain">
             <header>
                 <h1 class="article-title">{{ page.title }}</h1>
