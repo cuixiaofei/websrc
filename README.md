@@ -43,6 +43,8 @@
     很简单就是在_config.yml文件中写好gems: [jekyll-feed]声明使用该插件，
     gems现已更换为plugins，声明改为plugins: [jekyll-feed]RSS配置就完成
     然后将自动生成的feed.xml文件链接在按钮文件_includes/blog_header.html上即可。已经完成。
+    后来检查发现这个插件是做的xml订阅，和rss订阅不同，所以还是改为使用单独的feed.xml文件
+    其实也有相关插件，不过似乎没啥大用。
 
 8. 如何添加评论功能
     已经安装相应的插件insenseDebate插件，实现了评论功能

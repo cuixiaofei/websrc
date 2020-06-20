@@ -3,7 +3,8 @@ title: 小站名称
 description: 作者名称
 favicon: /assets/img/avatar.JPG
 url: https://????.github.io
-baseurl:  # baseurl Not filled in by default
+#baseurl:  # baseurl Not filled in by default
+
 
 # Build settings
 
@@ -32,7 +33,11 @@ kramdown:
 mathjax: true
 intenseDebate: true
 
-plugins: [jekyll-feed]
-plugins: [jekyll-mermaid]
+feed:
+  path: feed.xml
+
+plugins:
+  - jekyll-feed
+  - jekyll-mermaid
 #gems: [jeyll-mermaid] gems command abandon
 
