@@ -1,11 +1,8 @@
 ---
 layout: none
 ---
-
-
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/rss.xsl" media="all" ?>
-
+<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/assets/xsl/rss.xsl" media="all" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>{{ site.name }}</title>
