@@ -1,0 +1,14 @@
+
+<div style="width: 100%;height: 100%;" onclick="scrollToView()"></div>
+<div id="scroll" style="width: 20%;height: 70%;"></div>
+<div style="width: 100%;height: 100%;"></div>
+
+<script type="text/javascript">
+    function scrollToView () {
+        document.getElementById('scroll').scrollIntoView({
+            block: 'start',
+            inline: 'nearest',
+            behavior: 'smooth'
+        })
+    }
+</script>

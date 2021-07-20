@@ -12,11 +12,12 @@
             <header>
                 <h1 class="article-title">{{ page.title }}</h1>
                 <p class="article-time">
-                    {{ page.time }},  发表于 <span>{{ page.location }}</span> <span class="pause"> | </span>浏览量：<span data-hk-page="current"> - </span>次
+                    {{ page.time }},  发表于 <span>{{ page.location }}</span> 
+                    <span class="pause"> | </span> 浏览量：<span data-hk-page="current"> - </span>次
                 </p>
                 <p class="article-hint">
                     如果你对本小站有任何的建议或者疑问, 可以在
-                    <a href="https://github.com/cuixiaofei/web/issues" target="_blank">提交Issues</a>, 谢谢! :)
+                    <button id='welcomment' style="welcomment" onclick="scrollToView()">欢迎评论</button>
                 </p>
             </header>
             {{ content }}
@@ -30,5 +31,16 @@
 
         {% include footer.html %}
     </body>
+
+
+    <script type="text/javascript">
+    function scrollToView () {
+        document.getElementById('welcomment').scrollIntoView({
+            behavior: 'smooth',
+            block: 'end',
+            inline: 'nearest'
+        })
+    }
+    </script>
 
 </html>
