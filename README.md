@@ -58,7 +58,8 @@
 
 11. 对每篇文章增加增加阅读统计计数
     这个非常简单，只需要修改post_layout.html即可，使用的插件是Hit-Kounter-LC。
-    最近将会完成。
+    首先将script文件写好，然后在head.html中结合_config.yml文件设置开关，最后在post_layout.html里调用即可。
+    已经完成。
 
 ## 详细说明与想说的话
 
