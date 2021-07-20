@@ -32,6 +32,7 @@ kramdown:
 
 mathjax: true
 intenseDebate: true
+hitcounter: true
 
 feed:
   path: feed.xml

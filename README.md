@@ -57,7 +57,7 @@
     把摘要更新在xml的种子文件中。
 
 11. 对每篇文章增加增加阅读统计计数
-    这个非常简单，只需要修改post_layout.html即刻，使用的插件是Hit-Kounter-LC。
+    这个非常简单，只需要修改post_layout.html即可，使用的插件是Hit-Kounter-LC。
     最近将会完成。
 
 ## 详细说明与想说的话

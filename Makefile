@@ -10,6 +10,13 @@ deploy:
 push:
 	git push origin master
 
+build:
+	jekyll build
+	cd _site
+	jekyll server
+
+clean:
+	rm -r _site
 
 #显示分支
 show:
