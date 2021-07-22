@@ -1,0 +1,24 @@
+icard_resume.css:
+似乎是用于about的
+
+blog.css: 
+用于整个主页的页面显示
+其中的png文件为主页插入的文章落尾图片
+
+bootstrap-theme.css:
+这个文件里定义了基本用的控件
+按钮.btn
+面板.panel
+凹陷容器.well
+进度条.progress
+等等
+
+bootstrap.css:
+这个文件看来就是bootstrap的css代码
+不知道这个和 ../js/ 的源码有什么关系
+
+syntax.css:
+highlight.css:
+是一些字体变量的命名空间
+
+注意！！注释必须使用格式/* */才可以

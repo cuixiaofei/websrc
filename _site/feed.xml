@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" title="XSL Formatting" href="/assets/xsl/rss.xsl" media="all" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title></title>
+        <description>作者名称</description>
+        <link>http://localhost:4000</link>
+        <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+        
+            <item>
+                <title>标题示例填写</title>
+                <description>&lt;hr /&gt;
+&lt;p&gt;layout: post_layout
+title: 标题示例填写
+time: 2018年04月09日 星期日
+location: 位置示例填写
+pulished: true
+publight: true
+excerpt_separator: “```”
+—&lt;/p&gt;
+
+&lt;div&gt;&lt;table align=&quot;right&quot;&gt;&lt;td align=&quot;right&quot; bgcolor=&quot;#FFFFFF&quot; width=&quot;100&quot;&gt;&lt;font color=&quot;#F0F0F0&quot;&gt;~~结尾1~~&lt;/font&gt;&lt;/td&gt;&lt;/table&gt;&lt;br /&gt;
+&lt;table align=&quot;right&quot;&gt;&lt;td align=&quot;right&quot; bgcolor=&quot;#F5F5F5&quot; width=&quot;300&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;-------结尾2&lt;/font&gt;&lt;/td&gt;&lt;/table&gt;&lt;/div&gt;
+</description>
+                <pubDate>Thu, 11 Jan 2018 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2018/01/11/OR3.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2018/01/11/OR3.html</guid>
+            </item>
+        
+            <item>
+                <title>标题示例填写</title>
+                <description>&lt;hr /&gt;
+&lt;p&gt;layout: post_layout
+title: 标题示例填写
+time: 2018年04月09日 星期日
+location: 位置示例填写
+pulished: true
+publight: true
+excerpt_separator: “```”
+—&lt;/p&gt;
+
+&lt;div&gt;&lt;table align=&quot;right&quot;&gt;&lt;td align=&quot;right&quot; bgcolor=&quot;#FFFFFF&quot; width=&quot;100&quot;&gt;&lt;font color=&quot;#F0F0F0&quot;&gt;~~结尾1~~&lt;/font&gt;&lt;/td&gt;&lt;/table&gt;&lt;br /&gt;
+&lt;table align=&quot;right&quot;&gt;&lt;td align=&quot;right&quot; bgcolor=&quot;#F5F5F5&quot; width=&quot;300&quot;&gt;&lt;font color=&quot;#000000&quot;&gt;-------结尾2&lt;/font&gt;&lt;/td&gt;&lt;/table&gt;&lt;/div&gt;
+</description>
+                <pubDate>Thu, 11 Jan 2018 00:00:00 +0800</pubDate>
+                <link>http://localhost:4000/2018/01/11/OR2.html</link>
+                <guid isPermaLink="true">http://localhost:4000/2018/01/11/OR2.html</guid>
+            </item>
+        
+    </channel>
+</rss>

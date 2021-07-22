@@ -1,0 +1,13 @@
+I"�<hr />
+<p>layout: post_layout
+title: 标题示例填写
+time: 2018年04月09日 星期日
+location: 位置示例填写
+pulished: true
+publight: true
+excerpt_separator: “```”
+—</p>
+
+<div><table align="right"><td align="right" bgcolor="#FFFFFF" width="100"><font color="#F0F0F0">~~结尾1~~</font></td></table><br />
+<table align="right"><td align="right" bgcolor="#F5F5F5" width="300"><font color="#000000">-------结尾2</font></td></table></div>
+:ET

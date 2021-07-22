@@ -1,0 +1,9 @@
+I"�<hr />
+<p>layout: post_layout
+title: 标题示例填写
+time: 2018年04月09日 星期日
+location: 位置示例填写
+pulished: true
+publight: true
+excerpt_separator: “</p>
+:ET
